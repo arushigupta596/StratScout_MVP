@@ -1,16 +1,66 @@
-# React + Vite
+# StratScout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AI-powered competitive intelligence for D2C brands.**
 
-Currently, two official plugins are available:
+StratScout helps brands monitor competitor ad campaigns, decode marketing strategies, and surface actionable opportunities — all in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## What It Does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+StratScout walks users through a 5-stage flow:
 
-## Expanding the ESLint configuration
+1. **Onboarding** — Auto-detects your company details and lets you select up to 3 competitors to track
+2. **Dashboard** — Market overview with key alerts, ad volume share, and Porter's Five Forces analysis
+3. **Deep Dive** — Per-competitor breakdown: ad creatives, messaging strategy, keyword analysis, campaign timing, and competitive gaps
+4. **Strategy Comparison** — Side-by-side view of your strategy vs. competitor averages with AI recommendations
+5. **Export** — Download reports (PDF, CSV, PPTX) and configure ongoing alerts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **React 19** with Vite
+- **Framer Motion** — page transitions and animations
+- **Recharts** — market share bar charts
+- **Lucide React** — icons
+- **clsx** — conditional classNames
+- **Tailwind CSS** (via index.css utility classes)
+
+---
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173).
+
+### Other Commands
+
+| Command | Description |
+|---|---|
+| `npm run build` | Production build |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint |
+
+---
+
+## Project Structure
+
+```
+src/
+├── App.jsx       # All stage components and main app logic
+├── data.js       # Mock data (competitors, alerts, market stats)
+├── App.css       # Component styles
+└── index.css     # Global styles and utility classes
+```
+
+---
+
+## Notes
+
+- All data is currently mocked via `src/data.js` — no backend required to run
+- The demo is scoped to a D2C skincare use case (Bella Vita vs. Mamaearth, WOW, etc.)
