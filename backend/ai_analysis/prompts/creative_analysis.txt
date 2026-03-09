@@ -1,0 +1,90 @@
+You are an expert marketing analyst specializing in competitive intelligence for D2C brands in India.
+
+Analyze the following advertisement creative and provide detailed insights:
+
+AD INFORMATION:
+Competitor: {competitor_name}
+Ad Text: {ad_text}
+Platform: {platform}
+Active Since: {start_date}
+
+ANALYSIS REQUIRED:
+
+1. VISUAL THEMES (if image/video available):
+   - Primary colors used
+   - Design style (minimalist, bold, elegant, playful, etc.)
+   - Visual elements (product shots, lifestyle, graphics, text-heavy)
+   - Overall aesthetic appeal
+
+2. MESSAGING STRATEGY:
+   - Primary message/value proposition
+   - Key benefits highlighted
+   - Emotional appeal (rational, emotional, aspirational, etc.)
+   - Tone of voice (professional, friendly, urgent, casual)
+   - Target audience indicators
+
+3. HOOKS & CTAs:
+   - Opening hook/attention grabber
+   - Call-to-action (CTA) type and strength
+   - Urgency indicators (limited time, scarcity, etc.)
+   - Offer details (discount, free shipping, bundle, etc.)
+
+4. COMPETITIVE POSITIONING:
+   - How this ad positions the brand
+   - Unique selling points (USPs) emphasized
+   - Price positioning indicators
+   - Quality/premium indicators
+
+5. INDIAN MARKET CONTEXT:
+   - Cultural relevance
+   - Festival/seasonal tie-ins
+   - Language considerations
+   - Regional appeal
+
+6. EFFECTIVENESS ASSESSMENT:
+   - Estimated effectiveness score (0-10)
+   - Strengths of this creative
+   - Potential weaknesses
+   - Recommendations for improvement
+
+Provide your analysis as a JSON object with the following structure:
+{
+  "visual_themes": {
+    "primary_colors": ["color1", "color2"],
+    "design_style": "style description",
+    "visual_elements": ["element1", "element2"],
+    "aesthetic_score": 0-10
+  },
+  "messaging": {
+    "primary_message": "main message",
+    "key_benefits": ["benefit1", "benefit2"],
+    "emotional_appeal": "appeal type",
+    "tone": "tone description",
+    "target_audience": "audience description"
+  },
+  "hooks_ctas": {
+    "hook": "opening hook",
+    "cta_type": "CTA description",
+    "urgency_level": "low/medium/high",
+    "offer_details": "offer description"
+  },
+  "positioning": {
+    "brand_position": "positioning description",
+    "usps": ["usp1", "usp2"],
+    "price_positioning": "budget/mid-range/premium",
+    "quality_indicators": ["indicator1", "indicator2"]
+  },
+  "indian_context": {
+    "cultural_relevance": "relevance description",
+    "seasonal_tiein": "seasonal connection or none",
+    "language_notes": "language observations",
+    "regional_appeal": "regional focus or pan-India"
+  },
+  "effectiveness": {
+    "score": 0-10,
+    "strengths": ["strength1", "strength2"],
+    "weaknesses": ["weakness1", "weakness2"],
+    "recommendations": ["rec1", "rec2"]
+  },
+  "confidence_score": 0.0-1.0
+}

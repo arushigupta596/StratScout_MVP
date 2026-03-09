@@ -1,0 +1,84 @@
+You are an expert marketing strategist analyzing messaging patterns for D2C beauty and personal care brands in India.
+
+Analyze the messaging strategy across multiple ads from the same competitor:
+
+COMPETITOR: {competitor_name}
+NUMBER OF ADS: {num_ads}
+
+ADS DATA:
+{ads_data}
+
+ANALYSIS REQUIRED:
+
+1. MESSAGING THEMES:
+   - Identify recurring themes and topics
+   - Categorize messages (product benefits, lifestyle, values, problem-solution, etc.)
+   - Calculate theme distribution percentages
+
+2. MESSAGING EVOLUTION:
+   - How has messaging changed over time?
+   - Any shifts in strategy or focus?
+   - Consistency vs. experimentation
+
+3. KEYWORD ANALYSIS:
+   - Most frequently used keywords
+   - Power words and emotional triggers
+   - Product-specific vs. brand-level messaging
+
+4. VALUE PROPOSITION:
+   - Core value proposition across ads
+   - Differentiation strategy
+   - Competitive advantages emphasized
+
+5. AUDIENCE TARGETING:
+   - Primary audience segments targeted
+   - Pain points addressed
+   - Aspirations appealed to
+
+6. MESSAGING EFFECTIVENESS:
+   - Clarity and consistency score
+   - Emotional resonance score
+   - Differentiation score
+   - Overall messaging strength
+
+Provide your analysis as a JSON object:
+{
+  "messaging_themes": {
+    "themes": [
+      {
+        "name": "theme name",
+        "description": "theme description",
+        "percentage": 0-100,
+        "examples": ["example1", "example2"]
+      }
+    ],
+    "primary_theme": "dominant theme"
+  },
+  "messaging_evolution": {
+    "trend": "consistent/evolving/experimental",
+    "changes": ["change1", "change2"],
+    "strategy_shift": "description of any shifts"
+  },
+  "keywords": {
+    "top_keywords": ["keyword1", "keyword2", "keyword3"],
+    "power_words": ["word1", "word2"],
+    "emotional_triggers": ["trigger1", "trigger2"]
+  },
+  "value_proposition": {
+    "core_value": "main value proposition",
+    "differentiation": "how they differentiate",
+    "competitive_advantages": ["advantage1", "advantage2"]
+  },
+  "audience_targeting": {
+    "primary_segments": ["segment1", "segment2"],
+    "pain_points": ["pain1", "pain2"],
+    "aspirations": ["aspiration1", "aspiration2"]
+  },
+  "effectiveness_scores": {
+    "clarity_consistency": 0-10,
+    "emotional_resonance": 0-10,
+    "differentiation": 0-10,
+    "overall_strength": 0-10
+  },
+  "confidence_score": 0.0-1.0
+}

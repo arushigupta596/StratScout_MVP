@@ -1,0 +1,52 @@
+{
+  "brand": "Plum Goodness",
+  "collection_date": "2026-03-08T22:41:32.392341",
+  "source": "automated_scraping",
+  "country": "IN",
+  "ads": [
+    {
+      "ad_id": "scraped--5454625518829473139",
+      "page_name": "Dewy skin > dry winter days! Switching to a lighter and smarter moisturiser from Plum Goodness and my skin is thriving \ud83d\udc9c",
+      "ad_text": "Dewy skin > dry winter days! Switching to a lighter and smarter moisturiser from Plum Goodness and my skin is thriving \ud83d\udc9c The 2% Niacinamide and Rice Water Gel Moisturiser keeps my skin fresh, hydrated and bright without the heaviness. Perfect for winter days and dewy makeup \ud83e\udd0c\ud83c\udffb",
+      "start_date": null,
+      "stop_date": null,
+      "platforms": [],
+      "is_active": true,
+      "creative_type": "image",
+      "scraped_at": "2026-03-08T22:40:57.738664"
+    },
+    {
+      "ad_id": "scraped--880666469788940245",
+      "page_name": "Switching to a lighter and smarter moisturiser from Plum Goodness and my skin is thriving \ud83d\udc9c",
+      "ad_text": "Switching to a lighter and smarter moisturiser from Plum Goodness and my skin is thriving \ud83d\udc9c The 2% Niacinamide and Rice Water Gel Moisturiser keeps my skin fresh, hydrated and bright without the heaviness.",
+      "start_date": null,
+      "stop_date": null,
+      "platforms": [],
+      "is_active": true,
+      "creative_type": "image",
+      "scraped_at": "2026-03-08T22:40:57.740045"
+    },
+    {
+      "ad_id": "scraped-5346996911736880845",
+      "page_name": "Still pouring your toner in 2025? \ud83d\udc40 Time to switch to the Plum CeraSense\u2122\ufe0f Milky Toner Spray.",
+      "ad_text": "Still pouring your toner in 2025? \ud83d\udc40 Time to switch to the Plum CeraSense\u2122\ufe0f Milky Toner Spray. Lightweight, no mess, no heaviness, no fragrance \u2014 just a fine milky mist with ceramides, peptides, prebiotics & all the calming, hydrating goodness your skin actually needs. \u2728 And the best part? It\u2019s just \u20b9500.",
+      "start_date": null,
+      "stop_date": null,
+      "platforms": [],
+      "is_active": true,
+      "creative_type": "image",
+      "scraped_at": "2026-03-08T22:41:00.824389"
+    },
+    {
+      "ad_id": "scraped--9149112106433142490",
+      "page_name": "Matured Plum Cakes .. !",
+      "ad_text": "Matured Plum Cakes .. ! Experience the Pure Taste of Tradition.. ! Feel the Goodness of Exotic Fruits Infused in the Legendary Old Monk Rum & Honey . Mixed and Preserved for 11 Months and Now all set to Craft the Traditional Matured Plum Cakes.",
+      "start_date": null,
+      "stop_date": null,
+      "platforms": [],
+      "is_active": true,
+      "creative_type": "image",
+      "scraped_at": "2026-03-08T22:41:10.146254"
+    }
+  ]
+}
